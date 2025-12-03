@@ -1,5 +1,7 @@
-import EfeitoEscrever from "./efeitoEscrever";
-import NavbarCTA from "./navbarCTA";
+"use client";
+
+import EfeitoEscrever from "./EfeitoEscrever";
+import NavbarCTA from "./NavBar";
 
 function JemisseCta() {
   return (
