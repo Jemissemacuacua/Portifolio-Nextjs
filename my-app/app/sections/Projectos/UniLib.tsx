@@ -14,13 +14,8 @@ import {
 
 function Unilib() {
   return (
-
-    
     <div className="relative isolate overflow-hidden bg-white px-3 py-20 sm:py-32 lg:overflow-visible lg:px-0 ">
       <div className="absolute inset-0 -z-10 overflow-hidden">
-
-             
-
         <svg
           aria-hidden="true"
           className="absolute top-0 left-[max(50%,25rem)] h-256 w-512 -translate-x-1/2 mask-[radial-gradient(64rem_64rem_at_top,sky,transparent)] stroke-gray-200"
@@ -47,140 +42,99 @@ function Unilib() {
         </svg>
       </div>
 
-
-      <>
-        <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl text-center ">
-          Projectos em Destaque
+      <div className="mx-auto max-w-4xl">
+        <h2 className="text-4xl font-semibold tracking-tight text-gray-600 sm:text-5xl text-center mb-4">
+          Projetos em Destaque
         </h2>
-        <p className="text-center py-3 font-mono md:w-1/2 mx-auto ">
-          Focado em experiências, soluções e inovação.
+        <p className="text-center text-lg text-gray-600 font-mono mb-16">
+          Focado em experiências, soluções e inovação.
         </p>
-        <br />
-        <br />
-        <br />
 
-
-      </>
-
-
-      <div className="relative isolate overflow-hidden px-4 pt-4 shadow-2xl rounded-3xl sm:px-4  md:pt-4 lg:flex lg:gap-x-20 lg:px-4 lg:pt-2 border-2 border-gray-200 md:mx-auto md:w-3/5 bg-white">
-
-
-
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <div className="lg:pr-4">
-              <div className="lg:max-w-lg">
-               <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-400 to-sky-400 bg-clip-text text-transparent">
-                  <a
-                    href="http://libujc.vercel.app"
-                   
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="border border-gray-100 rounded px-2 py-1 text-sm font-mono hover:bg-gray-100/10 transition-colors"
-                  >
-                    Visitar
-                  </a>
-                </p>
-                <h1 className="mt-2 text-4xl font-semibold tracking-tight bg-gradient-to-b from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
-                  UniLib
-                </h1>
-                <p className="mt-3 text-3xl/10 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
-                  Encontre seus materiais acadêmicos, por curso, ano e disciplina. visualize as datas de entrega dos seus trabalhos e de realização de testes, e nunca perca horário.
-
-
-                </p>
+        <div className="relative isolate overflow-hidden px-6 py-8 shadow-2xl rounded-3xl sm:px-8 md:py-12 lg:px-12 border-2 border-gray-200 bg-white">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
+              <div className="lg:pr-4">
+                <div className="lg:max-w-lg space-y-4">
+                  <p className="text-base font-semibold bg-gradient-to-t from-sky-400 via-gray-400 to-sky-400 bg-clip-text text-transparent">
+                    <a
+                      href="http://libujc.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border border-gray-200 rounded px-3 py-1 text-sm font-mono hover:bg-gray-100/10 transition-colors inline-block"
+                    >
+                      Visitar
+                    </a>
+                  </p>
+                  <h1 className="text-4xl font-semibold tracking-tight bg-gradient-to-b from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
+                    UniLib
+                  </h1>
+                  <p className="text-xl leading-relaxed bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
+                    Encontre seus materiais acadêmicos por curso, ano e disciplina. Visualize as datas de entrega dos seus trabalhos e de realização de testes, e nunca perca horário.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          
-          <br />
-          <br />
 
-          <div className="@container relative min-h-120 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-
-            <div className="absolute inset-x-1 top-1 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-              <img
-                alt=""
-
-                src='/ProjectoJemisse.png'
-
-                className="size-full object-cover object-top"
-              />
+            <div className="@container relative min-h-120 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+              <div className="absolute inset-x-1 top-1 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
+                <img
+                  alt="Captura de tela do projeto UniLib"
+                  src='/ProjectoJemisse.png'
+                  className="size-full object-cover object-top"
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <div className="lg:pr-4">
-              <div className="max-w-xl text-base/7 text-gray-600 lg:max-w-lg
-              py-9
-              ">
+            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
+              <div className="lg:pr-4">
+                <div className="max-w-xl lg:max-w-lg">
+                  <div className="flex flex-wrap gap-2 text-lg bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent font-mono">
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <SiTypescript className="text-blue-600" /> TypeScript
+                    </span>
 
-                <div className="flex flex-wrap gap-2 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent font-mono">
-                  {/* TypeScript */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <SiTypescript className="text-blue-600" /> TypeScript
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <FaNode className="text-green-600" /> Node
+                    </span>
 
-                  {/* Node.js */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaNode className="text-green-600" /> Node
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <FaReact className="text-blue-400" /> React
+                    </span>
 
-                  {/* React */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaReact className="text-blue-400" /> React
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <FaHtml5 className="text-orange-500" /> HTML5
+                    </span>
 
-                  {/* HTML5 */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaHtml5 className="text-orange-500" /> HTML5
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <SiTailwindcss className="text-cyan-400" /> Tailwind
+                    </span>
 
-                  {/* Tailwind */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <SiTailwindcss className="text-cyan-400" /> Tailwind
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <FaGithub className="text-cyan-700" /> Git(Hub)
+                    </span>
 
-                 {/* Git(Hub) */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaGithub className="text-cyan-700" /> Git(Hub)
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <FaGithubAlt className="text-cyan-600"/> Git Actions
+                    </span>
 
-                  {/* Git Actions */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaGithubAlt className="text-cyan-600"/> Git Actions
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <SiVercel className="text-black/100" /> Vercel
+                    </span>
 
-                  {/* Vercel */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <SiVercel className="text-black/100" /> Vercel
-                  </span>
-
-                  {/* MySQL */}
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <SiMysql className="text-blue-500" /> MySQL
-                  </span>
+                    <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                      <SiMysql className="text-blue-500" /> MySQL
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      
-      
     </div>
-
-
-    
-
-
   )
 }
 
 export default Unilib;
-
-
 
 
