@@ -1,19 +1,14 @@
 "use client";
-
 import EfeitoEscrever from "./EfeitoEscrever";
 import NavbarCTA from "./NavBar";
 
 function JemisseCta() {
   return (
-     
     <div className="bg-gray-900">
-
       <NavbarCTA/>
-
-
-      <div className="w-screen h-screen mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-         
+      <div className="relative isolate overflow-hidden bg-white px-3 py-20 sm:py-32 lg:overflow-visible lg:px-0">
+        <div className="mx-auto max-w-4xl">
+          <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-16 shadow-2xl rounded-3xl sm:px-8 md:py-20 lg:flex lg:gap-x-20 lg:px-12 border-2 border-gray-700">
           <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
@@ -27,42 +22,43 @@ function JemisseCta() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="mx-auto max-w-md lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-               <EfeitoEscrever />
-            <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
-              Jemisse Macuacua.
-            </h2>
-            <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl">
-              Apaixonado por tecnologia.
-            </h2>
-            <p className="mt-6 text-lg/8 text-pretty text-gray-400  font-mono">
-              Eu sou um Software Developer com mais de 1 ano de experiência em prover soluções para problemas usando tecnologia..
+          
+          <div className="mx-auto max-w-md lg:mx-0 lg:flex-auto lg:py-12 lg:text-left space-y-6">
+            <EfeitoEscrever />
+            
+            <div className="space-y-2">
+              <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+                Jemisse Macuacua.
+              </h2>
+              <h2 className="text-3xl font-semibold tracking-tight text-gray-400 sm:text-4xl">
+                Apaixonado por tecnologia.
+              </h2>
+            </div>
+            
+            <p className="text-lg leading-relaxed text-gray-400 font-mono">
+              Eu sou um Software Developer com mais de 1 ano de experiência em prover soluções para problemas usando tecnologia.
             </p>
-            <div className="mt-10 flex   gap-x-6 lg:justify-start font-mono">
+            
+            <div className="flex gap-x-6 lg:justify-start font-mono">
               <a
                 href="mailto:macuacuajemisse@gmail.com"
-                className="rounded-md bg-sky-700 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="rounded-md bg-sky-700 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-sky-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
               >
-                {' '}
-                Contactar-me{' '}
+                Contactar-me
               </a>
-              <a href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" className="rounded-md bg-gray-900 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-                LinkedIn
-                <span aria-hidden="true">→</span>
-
+              <a 
+                href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" 
+                className="rounded-md bg-gray-800 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
+              >
+                LinkedIn <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
-          <br />
-          <br />
-          <br />
-
-
         </div>
       </div>
     </div>
- 
-  )
+    </div>
+  );
 }
 
 export default JemisseCta;
