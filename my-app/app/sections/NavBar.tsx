@@ -3,8 +3,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-
-
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,35 +16,32 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-
   return (
     <>
       {/* Navbar Desktop */}
-      <nav className={`fixed top-4 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-6xl mx-auto z-50 transition-all duration-300 rounded-full ${scrolled ? 'bg-white/10 backdrop-blur-lg py-3 shadow-lg ring-1 ring-white/10' : 'bg-transparent py-4'}`}>
-        <div className="container mx-auto px-6 flex justify-between items-center">
-          {/* Logo - Lado Esquerdo */}
+      <nav className={`fixed top-4 left-1/2 -translate-x-1/2 
+        w-full max-w-7xl px-3 md:px-6 mx-auto z-50 transition-all duration-300 rounded-full 
+        ${scrolled ? 'bg-white/10 backdrop-blur-lg py-3 shadow-lg ring-1 ring-white/10' : 'bg-transparent py-4'}`}>
         
+        <div className="container mx-auto px-6 flex justify-between items-center">
+          
+          {/* Logo - Lado Esquerdo */}
           <Link href="/" className={`font-mono text-xl font-bold transition-colors duration-300 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}>
-                  James
+            James
           </Link>
-
 
           {/* Links - Lado Direito (Desktop) */}
           <div className="hidden md:flex space-x-6">
             <div className="hidden md:flex space-x-6">
-              
               <Link href="/Sobre" className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}>
-                  Sobre
+                Sobre
               </Link>
 
               <Link href="/Unilib" className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}>
-                  Projetos
+                Projetos
               </Link>
+            </div>
           </div>
-          </div>
-
-
-          
 
           {/* Botão Mobile */}
           <button 
