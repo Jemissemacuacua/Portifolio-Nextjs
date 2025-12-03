@@ -35,7 +35,7 @@ export default function SkillsSection() {
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl text-center">
                 Hábilidades Técnicas
             </h2>
-            <p className="text-center py-3 font-mono md:w-1/2 mx-auto">
+            <p className="text-center py-3 font-mono text-gray-400 md:w-1/2 mx-auto">
                 Com criatividade no desenvolvimento, construo interfaces digitais intuitivas, utilizando múltiplas ferramentas e linguagens de forma versátil.
             </p>
 
