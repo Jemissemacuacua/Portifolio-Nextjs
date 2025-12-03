@@ -103,7 +103,7 @@ function Unilib() {
               <img
                 alt=""
 
-                src='/unilib.png'
+                src='/ProjectoJemisse.png'
 
                 className="size-full object-cover object-top"
               />
